@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Amazon Test Suite]">
+  <test name="Search Test(failed)">
+    <classes>
+      <class name="com.gogo.interview.tests.SearchResultsTest">
+        <methods>
+          <include name="verifyCategorySelection"/>
+          <include name="verifyPublishDateOfBook"/>
+          <include name="verifySearchResults"/>
+          <include name="verifyReviewsOfBook"/>
+          <include name="verifyTitleOfBook"/>
+          <include name="verifyStarRatingOfBook"/>
+          <include name="verifyBuyOptionsOfBook"/>
+          <include name="verifyVersionsOfBook"/>
+          <include name="afterSuite"/>
+          <include name="verifyAuthorOfBook"/>
+          <include name="verifyImageOfBook"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.gogo.interview.tests.SearchResultsTest -->
+    </classes>
+  </test> <!-- Search Test(failed) -->
+</suite> <!-- Failed suite [Amazon Test Suite] -->

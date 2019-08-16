@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Amazon Test Suite" verbose="2" >
+  <test name="Search Test" >
+    <classes>
+	    <class name="com.gogo.interview.tests.SearchResultsTest"/>
+    </classes>
+  </test>
+</suite>
